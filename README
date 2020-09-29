@@ -1,1 +1,19 @@
-# Simulating_Netflix_Equity_Price_and_Returns
+Simulating Netflix Equity Price and Returns
+
+Table of Contents
+
+    Introduction
+    Install and Import Packages
+    Access Data using IEX API Call
+    Pre-processing
+    Exploratory Data Analysis
+    Random Price Walk Using a Normal Distribution
+    Simulate NFLX Equity Price and Returns
+
+1. Introduction
+
+In the coming weeks, we'll focus on some super-fun time-series data, including accessing and working with time-indexed data and building analyses, models, and visualizations.
+
+Before that, let's run a quick, simple simulation on Netflix stock (ticker: NFLX). A lot can be gleaned from assessing underlying fundamentals and growth / momentum to value a company in the medium and long term. However, day-to-day stock price movements are notoriously difficult to predict, adopting the path of a random walk. Would could also simulate a random walk to approximate genetic drift, an animal foraging, electron transport through a metal, bacterial movement, firing neurons, and particle diffusion through a liquid or gas.
+
+Today, we'll simulate NFLX price and returns using historical closing price data to approximate NFLX day-to-day movement. Here, we'll use the IEX API (https://iexcloud.io/), which is an excellent source of financial data. You can sign up for a free individual account, though there are tiered priced individual and business offerings with increasingly high API call allowances. In a future post, we'll work with the Yahoo Finance API (free).
